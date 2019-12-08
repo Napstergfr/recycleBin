@@ -1,0 +1,193 @@
+.padder{
+	padding: 10px;
+}
+.cartWrapper{
+	position: fixed; 
+	right: 0; 
+	bottom: 30px; 
+	height: 90vh; 
+	width: 400px; 
+	background: #eee; 
+	border-radius: 8px 0 0 8px;
+}
+.cartTop{
+	width: 100%; 
+	background: #F2855C; 
+	height: 40px; 
+	border-radius: 8px 0 0 0;
+}
+.arrow{
+	padding-left: 10px; 
+	cursor: pointer;
+}
+.cartIcon{
+	position: absolute; 
+	left: 170px; 
+	top: -30px; 
+}
+.svgHolder{
+	position: relative; 
+	display: flex;
+	justify-content: center; 
+	flex-direction: column;
+	text-align: center; 
+	background: #FFFF; 
+	width: 50px; 
+	height: 50px; 
+	border-radius: 50%; 
+	margin: 0 auto; 
+	border: 3px solid  #F2855C;
+}
+.btnItemCount{
+	position: absolute;  
+	background: #F2855C; 
+	min-width: 13px; 
+	height: 13px; 
+	border-radius: 50%; 
+	left: 26.6px; 
+	top: 9.5px; 
+	color: #FFFFFF; 
+	padding: 2px; 
+	font-size: 12px; 
+	line-height: 14px;
+}
+.productContainer{
+	position:relative; 
+	display: flex; 
+	flex-direction: row; 
+	margin: 10px; 
+	padding: 10px; 
+	width: 88%; 
+	background: #fff; 
+	height: 90px;  
+	border-radius: 4px; 
+	margin-top: 20px;
+}
+.delete{
+	display:flex; 
+	flex-direction: row; 
+	justify-content: center; 
+	height: 23px; 
+	width: 23px; 
+	border-radius: 50%; 
+	border: 1px solid #F2855C; 
+	position: absolute; 
+	background: #FFFFFF; 
+	right: -10px; top: -12px; 
+	cursor: pointer;
+}
+.CproductImg{
+	border-radius: 4px; 
+	height: 100%; 
+	padding: 0px; 
+	margin:0px; 
+	width: 85px; 
+	float: left;
+}
+.left{
+	padding-right: 10px;
+}
+.right-l{
+	height: 53px; 
+	overflow: hidden;
+}
+.right-2{
+	padding-top: 10px;
+}
+.number-input{
+	border: 2px solid #F2855C; 
+	display: inline-flex; 
+	border-radius: 7px;
+}
+.number-input button{
+	font-size: 20px; 
+	line-height: .1px; 
+	margin-top: -1px; 
+	padding-top: 0; 
+	outline:none; 
+	-webkit-appearance: none;
+	background-color: transparent; 
+	border: none; 
+	align-items: center; 
+	justify-content: center; 
+	width: 20px; 
+	height: 20px; 
+	cursor: pointer; 
+	position: relative; 
+}
+.number-input .btnPlus{
+	margin-top: 1px;
+}
+.number-input input[type=number]::-webkit-inner-spin-button, 
+.number-input input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.number-input input[type=number]{
+	font-family: sans-serif; 
+	max-width: 20px;  
+	border: solid #F2855C; 
+	border-width: 0 2px; 
+	height: 20px; 
+	font-weight: bold; 
+	text-align: center;
+	font-size: 12px
+}
+.coupon{
+	padding: 10px; 
+	font-size: 14px; 
+	line-height: 25px;
+}
+.coupon button{
+	float: right; 
+	border:none; 
+	background: #FFD5C5; 
+	padding: 7px 17px; 
+	border-radius: 3px; 
+	cursor: pointer;
+}
+.detalsTab{
+	margin:10px; 
+	padding: 10px; 
+	background: #fff; 
+	border-radius: 5px; 
+	border:2px solid #F2855C;
+}
+.cartbottom{
+	padding: 10px;
+}
+.cartbottom .buttonDetalis{
+	float: left; 
+	border:2px solid #F2855C; 
+	background: #fff; 
+	width: 40%; 
+	height: 35px;
+	border-radius: 3px; 
+	cursor: pointer; 
+	color: #F2855C;
+}
+.cartbottom .buttonCheckout{
+	width: 40%; 
+	height: 35px; 
+	background: #F2855C; 
+	border: none; 
+	border-radius: 3px; 
+	cursor: pointer; 
+	float: right;
+}
+.cartButton{
+	height: 90px; 
+	width: 65px; 
+	background: #F2855C; 
+	position: fixed; 
+	right: 0; 
+	top: 45%; 
+	border-radius: 10px 0 0 10px;
+	padding-top: 10px;
+}
+.totalAmount{
+	text-align: center; 
+	margin-top: 5px; 
+	font-weight: bold; 
+	color: #FFFFFF;
+}
